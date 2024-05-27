@@ -10,7 +10,7 @@ public class Zeppelin {
 
     public Zeppelin(float x, float y, float width, float height) {
         rectangle = new Rectangle(x, y, width, height);
-        texture = new Texture("zepSkeleton.png"); // default image
+        texture = new Texture("zepSkeleton.png");
         correctMaterial = false;
     }
 
